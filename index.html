@@ -17,9 +17,9 @@
   }
   </style>
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body data-spy="scroll" data-target=".navbar" data-offset="110">
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" style="box-shadow: 2px 2px 8px 2px #00000045;">
   <h1 class="display-4 text-white col-sm-hide d-none d-md-block">Dawson Richey</h1>
   <img class="d-none" src="" alt="Dawson Richey">  
   <ul class="navbar-nav ml-auto">
@@ -42,16 +42,16 @@
 </nav>
 
 <!-- ABOUT section -->
-  <div id="sectionAbout" class="container-fluid bg-success mt-5" style="padding-top:70px;padding-bottom:70px">
-  <h1 class="display-4 pb-4 text-center">About</h1><hr>
+  <div id="sectionAbout" class="container-fluid bg-success mt-4" style="padding-top:100px;padding-bottom:70px">
+  <h1 class="display-4 pb-2 text-center text-uppercase text-light">About</h1><hr><br>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
 </div>
   <!-- END ABOUT section -->
 
 <!-- EDUCATION section -->
-  <div id="sectionEducation" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
-<h1 class="display-4 pb-4 text-center">Education</h1><hr>
+  <div id="sectionEducation" class="container-fluid bg-warning" style="padding-top:40px;padding-bottom:40px">
+<h1 class="display-4 pb-2 text-center text-uppercase text-light">Education</h1><hr><br>
 
     <div class="card-columns">
       <div class="card">
@@ -97,11 +97,13 @@
         </div>
       </div>
       <div class="card">
+        <div class="row">
+          <div class="col">
         <img class="card-img" src="img/235.jpg" alt="Card image">
           <!-- Button trigger modal -->
-          <div class="row">
-            <div class="col-6 mx-auto">
-              <button type="button" class="btn btn-primary my-3" data-toggle="modal" data-target="#exampleModal">Launch demo modal</button>
+            <div class="col mx-auto">
+              <button type="button" class="col btn btn-primary my-3" data-toggle="modal" data-target="#exampleModal">Launch</button>
+            </div>
             </div>
           </div>
           <!-- Modal -->
@@ -155,49 +157,45 @@
   <!-- END EDUCATION section -->
 
 <!-- SKILLS section -->
-  <div id="sectionSkills" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
- <h1 class="display-4 pb-4 text-center">Skills</h1><hr>
-
-<div class="row text-center py-3">
-  <button class="btn btn-info ml-3" onclick="openCity('London')">London</button>
-  <button class="btn btn-primary ml-3" onclick="openCity('Paris')">Paris</button>
-  <button class="btn btn-success ml-3" onclick="openCity('Tokyo')">Tokyo</button>
+<div id="sectionSkills" class="container-fluid bg-secondary" style="padding-top:40px;padding-bottom:40px">
+<h1 class="display-4 pb-2 text-center text-uppercase text-light">Skills</h1><hr>
+<div class="row text-center pt-2 pb-4">
+  <button class="btn btn-info ml-3" style="box-shadow: 2px 2px 4px 0px #0000003d;" onclick="openCity('London')">London</button>
+  <button class="btn btn-warning ml-3" style="box-shadow: 2px 2px 4px 0px #0000003d;" onclick="openCity('Paris')">Paris</button>
+  <button class="btn btn-success ml-3" style="box-shadow: 2px 2px 4px 0px #0000003d;" onclick="openCity('Tokyo')">Tokyo</button>
 </div>
 
-<div id="London" class="city bg-info col-8 mx-auto card">
-  <h2 class="text-left m-2 text-white">London</h2>
-    <hr style="height: 3px; border-color: #000; opacity: .4; border-width: 2px;">
-  <p class="ml-2 text-mute font-weight-light">London is the capital city of England.</p>
+<div id="London" class="city bg-info col-10 mx-auto card" style="box-shadow: 2px 2px 4px 0px #0000003d;">
+  <h2 class="text-left m-2 p-2 ml-3 text-white">London</h2>
+    <hr style="height: 7px; border-color: #00000085; opacity: .4; border-width: 5px; width: 97%; margin-bottom: 5px;">
+  <p class="ml-4 mt-1 font-weight-light">London is the capital city of England.</p>
 </div>
 
-
-
-<div id="Paris" class="city bg-danger col-8 mx-auto card" style="display:none">
-  <h2 class="text-left m-2 text-white">Paris</h2>
-  <hr style="height: 3px; border-color: #000; opacity: .4; border-width: 2px;">
-  <p class="ml-2 text-mute font-weight-light">London is the capital city of England.</p>
+<div id="Paris" class="city bg-danger col-10 mx-auto card" style="display:none">
+  <h2 class="text-left m-2 p-2 ml-3 text-white">Paris</h2>
+  <hr style="height: 7px; border-color: #00000085; opacity: .4; border-width: 5px; width: 97%; margin-bottom: 5px;">
+  <p class="ml-4 mt-1 text-mute font-weight-light">London is the capital city of England.</p>
 </div>
 
-<div id="Tokyo" class="city bg-success col-8 mx-auto card" style="display:none">
-  <h2 class="text-left m-2 text-white">Tokyo</h2>
-    <hr style="height: 3px; border-color: #000; opacity: .4; border-width: 2px;">
-  <p class="ml-2 text-mute font-weight-light">London is the capital city of England.</p>
+<div id="Tokyo" class="city bg-success col-10 mx-auto card" style="display:none">
+  <h2 class="text-left m-2 p-2 ml-3 text-white">Tokyo</h2>
+    <hr style="height: 7px; border-color: #00000085; opacity: .4; border-width: 5px; width: 97%; margin-bottom: 5px;">
+  <p class="ml-4 mt-1 text-mute font-weight-light">London is the capital city of England.</p>
 </div>
-<br>
 <br>
 </div>
   <!-- END SKILLS section -->
 
 <!-- PORTFOLIO section -->
-  <div id="sectionPortfolio" class="container-fluid bg-danger" style="padding-top:70px;padding-bottom:70px">
-    <h1 class="display-4 pb-4 text-center">Portfolio</h1><hr>
-  <div class="row">
+<div id="sectionPortfolio" class="container-fluid bg-danger" style="padding-top:40px;padding-bottom:40px; box-shadow: inset 2px 2px 4px 1px #00000040;">
+  <h1 class="display-4 pb-2 text-center text-light">Portfolio</h1><hr><br>
+    <div class="row">
     <div class="col">
         <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
     </div>
     <div class="col">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
+    <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
@@ -226,46 +224,35 @@
     </div>
   </div>
   </div>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-      
-    </div>
-    <div class="col">
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
     </div>
   </div>
-
-  
-
-</div>
+  </div>
   <!-- END PORTFOLIO section -->
 
 <!-- CONTACT section -->
-  <div id="sectionContact" class="container-fluid bg-info" style="padding-top:70px;padding-bottom:70px">
-  <h1 class="d-none">Contact</h1>
+<div id="sectionContact" class="container-fluid bg-success" style="padding-top:40px;padding-bottom:40px">
+  <h1 class="display-4 pb-2 text-center text-uppercase text-light">Contact</h1>
+    <p class="lead text-center font-weight-light">Swing by for a cup of coffee, or leave us a message:</p>
+    <hr><br>
+  
   <div class="container" id="now">
-  <div style="text-align:center">
-    <h1 class="display-4">Contact Me</h1>
-  <p class="lead">wing by for a cup of coffee, or leave us a message:</p>
-  <hr class="my-4">
+    <div style="text-align:center">
   </div>
-  <div class="row">
-    <div class="col">
+    <div class="row mx-0">
+    <div class="col pb-2 my-1">
       <form action="/action_page.php">
           <div class="row">
           <div class="col">
-              <label for="fname">First Name</label>
+              <label for="fname">First Name:</label>
               <input type="text" id="fname" name="firstname" placeholder="Your name..">
-              <label for="lname">Last Name</label>
+              <label for="lname">Last Name:</label>
               <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-              </select>
+              <label for="fname">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Your email..">
           </div>
           <div class="col">
-            <label for="subject">Subject</label>
+            <label for="subject">Subject:</label>
               <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
               <input type="submit" value="Submit" class="col-12">
           </div>
@@ -274,31 +261,26 @@
     </div>
     </div>
   </div>
-
-  
 </div>
   <!-- END CONTACT section -->
 
 <!-- FOOTER -->
-<div class="container-fluid bg-dark">
-  <div class="row text-center">
-    <div class="col">
-      <a href="www.google.com" class="text-info"><span class="fa fa-github fa-3x text-center py-3"><h5 class="text-center pt-2 d-none d-md-block text-uppercase">GitHub</h5></span></a>
+<div class="container-fluid bg-dark pt-1">
+  <div class="row col-12 text-center p-2 pb-2">
+    <div class="col-1 mx-auto">
+      <a href="http://www.github.com/dawsonrichey" class="text-warning" target="_new"><span class="fa fa-github-square fa-3x text-center pt-1"><p class="lead text-center pt-2 d-none">GitHub</p></span></a>
     </div>
-    <div class="col">
-      <a href="www.google.com" class="text-info"><span class="fa fa-linkedin fa-3x text-center py-3"><h5 class="text-center pt-2 d-none d-md-block text-uppercase">LinkedIn</h5></span></a>
+    <div class="col-1 mx-auto">
+      <a href="http://www.linkedin.com/dawsonrichey" class="text-warning" target="_new"><span class="fa fa-linkedin-square fa-3x text-center pt-1"><p class="lead text-center pt-2 d-none">LinkedIn</p></span></a>
     </div>
-    <div class="col-3">
-      <a href="www.google.com" class="text-info"><span class="fa fa-flickr fa-3x text-center py-3"><h5 class="text-center pt-2 d-none d-md-block text-uppercase">Flickr</h5></span></a>
+    <div class="col-1 mx-auto">
+      <a href="http://www.flickr.com/dawsonrichey" class="text-warning" target="_new"><span class="fa fa-flickr fa-3x text-center pt-1"><p class="lead text-center pt-2 d-none">Flickr</p></span></a>
     </div>
-        <div class="col">
-      <a href="www.google.com" class="text-info"><span class="fa fa-envelope-o fa-3x text-center py-3"><h5 class="text-center pt-2 d-none d-md-block text-uppercase">Email</h5></span></a>
+        <div class="col-1 mx-auto">
+      <a href="emailto:dawsonrichey@gmail.com" class="text-warning" target="_new"><span class="fa fa-envelope fa-3x text-center pt-1"><p class="lead text-center pt-2 d-none">Email</p></span></a>
     </div>
-
-  </div>
-  <div class="row">
-    <div class="col">
-      <p class="text-center d-block mb-2 text-secondary font-weight-light">Dawson Richey Copyright 2017.</p>
+    <div class="col-3 offset-md-2 bg-dark pt-2 my-1">
+      <p class="text-secondary text-weight-light mb-2">Dawson Richey Copyright 2017</p>
     </div>
   </div>
 </div>
