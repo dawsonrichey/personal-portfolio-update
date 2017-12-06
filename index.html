@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Dawson Richey</title>
+  <title>Dawson Richey Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
@@ -9,18 +9,29 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/style2.css">
+  <link rel="stylesheet" href="css/style2.css">
 
   <style>
   body {
       position: relative; 
   }
   </style>
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110799918-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-110799918-1');
+</script>
+
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="110">
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" style="box-shadow: 2px 2px 8px 2px #00000045;">
   <h1 class="display-4 text-white col-sm-hide d-none d-md-block">Dawson Richey</h1>
+  <h1 class="display-4 text-white col-sm-hide d-sm-block d-md-none">[ DR ]</h1>
   <img class="d-none" src="" alt="Dawson Richey">  
   <ul class="navbar-nav ml-auto">
     <li class="nav-item">
@@ -44,56 +55,32 @@
 <!-- ABOUT section -->
   <div id="sectionAbout" class="container-fluid bg-success mt-4" style="padding-top:100px;padding-bottom:70px">
   <h1 class="display-4 pb-2 text-center text-uppercase text-light">About</h1><hr><br>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+<div class="row">
+  <div class="col-4">
+    <img src="img/235.jpg" class="img-fluid rounded">
+  </div>
+  <div class="col-8">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Special title treatment</h4>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Download Resume</a>
+      </div>
+    </div>
+ </div>
+</div>  
 </div>
   <!-- END ABOUT section -->
 
 <!-- EDUCATION section -->
-  <div id="sectionEducation" class="container-fluid bg-warning" style="padding-top:40px;padding-bottom:40px">
+  <div id="sectionEducation" class="container-fluid bg-warning" style="padding-top:100px;padding-bottom:40px">
 <h1 class="display-4 pb-2 text-center text-uppercase text-light">Education</h1><hr><br>
-
     <div class="card-columns">
       <div class="card">
         <img class="card-img-top" src="img/304.jpg" alt="Card image cap">
         <div class="card-body">
           <h4 class="card-title">Card title that wraps to a new line</h4>
           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
-      </div>
-      <div class="card p-3">
-        <blockquote class="blockquote mb-0 card-body">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-          <footer class="blockquote-footer">
-            <small class="text-muted">
-              Someone famous in <cite title="Source Title">Source Title</cite>
-            </small>
-          </footer>
-        </blockquote>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="img/304.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-      <div class="card bg-primary text-white text-center p-3">
-        <blockquote class="blockquote mb-0">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-          <footer class="blockquote-footer">
-            <small>
-              Someone famous in <cite title="Source Title">Source Title</cite>
-            </small>
-          </footer>
-        </blockquote>
-      </div>
-      <div class="card text-center">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
       <div class="card">
@@ -110,11 +97,6 @@
           <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
                 <div class="modal-body">
                   <div class="row">
                     <div class="col">
@@ -145,6 +127,16 @@
           </footer>
         </blockquote>
       </div>
+      <div class="card p-3 text-right">
+        <blockquote class="blockquote mb-0">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Someone famous in <cite title="Source Title">Source Title</cite>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
       <div class="card">
         <div class="card-body">
           <h4 class="card-title">Card title</h4>
@@ -152,12 +144,22 @@
           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
+      <div class="card p-3 text-right">
+        <blockquote class="blockquote mb-0">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Someone famous in <cite title="Source Title">Source Title</cite>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
 </div>
 </div>
   <!-- END EDUCATION section -->
 
 <!-- SKILLS section -->
-<div id="sectionSkills" class="container-fluid bg-secondary" style="padding-top:40px;padding-bottom:40px">
+<div id="sectionSkills" class="container-fluid bg-secondary" style="padding-top:100px;padding-bottom:40px">
 <h1 class="display-4 pb-2 text-center text-uppercase text-light">Skills</h1><hr>
 <div class="row text-center pt-2 pb-4">
   <button class="btn btn-info ml-3" style="box-shadow: 2px 2px 4px 0px #0000003d;" onclick="openCity('London')">London</button>
@@ -166,9 +168,65 @@
 </div>
 
 <div id="London" class="city bg-info col-10 mx-auto card" style="box-shadow: 2px 2px 4px 0px #0000003d;">
-  <h2 class="text-left m-2 p-2 ml-3 text-white">London</h2>
+  <h2 class="text-left m-2 p-2 ml-3 text-white">School</h2>
     <hr style="height: 7px; border-color: #00000085; opacity: .4; border-width: 5px; width: 97%; margin-bottom: 5px;">
-  <p class="ml-4 mt-1 font-weight-light">London is the capital city of England.</p>
+  <ul class="list-unstyled">
+  <li class="media px-2">
+    <img class="col-3 mr-3 img-fluid" src="img/235.jpg" alt="Generic placeholder image">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">Miami University <span class="text-weight-light">Oxford, OH</span></h5>
+      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+    </div>
+  </li>
+  <li class="media py-2 px-4">
+
+    <div class="media-body">
+    <h5 class="mt-0 mb-1">Dubouil European University Center <span class="">Luxembourg</span></h5>
+    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+</div>
+      <img class="ml-3 col-3 img-fluid" src="img/235.jpg" alt="Generic placeholder image">
+
+</li>
+  <li class="media p-2">
+    <img class="col-3 mr-3 img-fluid" src="img/235.jpg" alt="Generic placeholder image">
+    <div class="media-body">
+      <h3 class="mt-0 mb-1">Code Louisville <span class=""><p>Louisville, KY</p></span></h3>
+<hr>
+<div id="accordion" role="tablist">
+  <div class="card">
+    <div class="card-header" role="tab" id="headingOne">
+      <h5 class="mb-0">
+        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Front-End Development
+        </a>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header" role="tab" id="headingTwo">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Full Stack JavaScript
+        </a>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+
+</div>    </div>
+  </li>
+</ul>
 </div>
 
 <div id="Paris" class="city bg-danger col-10 mx-auto card" style="display:none">
@@ -187,7 +245,7 @@
   <!-- END SKILLS section -->
 
 <!-- PORTFOLIO section -->
-<div id="sectionPortfolio" class="container-fluid bg-danger" style="padding-top:40px;padding-bottom:40px; box-shadow: inset 2px 2px 4px 1px #00000040;">
+<div id="sectionPortfolio" class="container-fluid bg-danger" style="padding-top:100px;padding-bottom:40px; box-shadow: inset 2px 2px 4px 1px #00000040;">
   <h1 class="display-4 pb-2 text-center text-light">Portfolio</h1><hr><br>
     <div class="row">
     <div class="col">
@@ -231,7 +289,7 @@
   <!-- END PORTFOLIO section -->
 
 <!-- CONTACT section -->
-<div id="sectionContact" class="container-fluid bg-success" style="padding-top:40px;padding-bottom:40px">
+<div id="sectionContact" class="container-fluid bg-success" style="padding-top:100px;padding-bottom:40px">
   <h1 class="display-4 pb-2 text-center text-uppercase text-light">Contact</h1>
     <p class="lead text-center font-weight-light">Swing by for a cup of coffee, or leave us a message:</p>
     <hr><br>
@@ -249,7 +307,7 @@
               <label for="lname">Last Name:</label>
               <input type="text" id="lname" name="lastname" placeholder="Your last name..">
               <label for="fname">Email:</label>
-              <input type="email" id="email" name="email" placeholder="Your email..">
+              <input type="text" id="email" name="email" placeholder="Your email..">
           </div>
           <div class="col">
             <label for="subject">Subject:</label>
@@ -271,10 +329,10 @@
       <a href="http://www.github.com/dawsonrichey" class="text-warning" target="_new"><span class="fa fa-github-square fa-3x text-center pt-1"><p class="lead text-center pt-2 d-none">GitHub</p></span></a>
     </div>
     <div class="col-1 mx-auto">
-      <a href="http://www.linkedin.com/dawsonrichey" class="text-warning" target="_new"><span class="fa fa-linkedin-square fa-3x text-center pt-1"><p class="lead text-center pt-2 d-none">LinkedIn</p></span></a>
+      <a href="http://www.linkedin.com/in/dawsonrichey" class="text-warning" target="_new"><span class="fa fa-linkedin-square fa-3x text-center pt-1"><p class="lead text-center pt-2 d-none">LinkedIn</p></span></a>
     </div>
     <div class="col-1 mx-auto">
-      <a href="http://www.flickr.com/dawsonrichey" class="text-warning" target="_new"><span class="fa fa-flickr fa-3x text-center pt-1"><p class="lead text-center pt-2 d-none">Flickr</p></span></a>
+      <a href="https://www.flickr.com/photos/111470793@N04/" class="text-warning" alt="flickr" target="_new"><span class="fa fa-flickr fa-3x text-center pt-1"><p class="lead text-center pt-2 d-none">Flickr</p></span></a>
     </div>
         <div class="col-1 mx-auto">
       <a href="emailto:dawsonrichey@gmail.com" class="text-warning" target="_new"><span class="fa fa-envelope fa-3x text-center pt-1"><p class="lead text-center pt-2 d-none">Email</p></span></a>
