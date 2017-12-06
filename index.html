@@ -20,7 +20,8 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-  <img class="" src="" alt="Dawson Richey">  
+  <h1 class="display-4 text-white col-sm-hide d-none d-md-block">Dawson Richey</h1>
+  <img class="d-none" src="" alt="Dawson Richey">  
   <ul class="navbar-nav ml-auto">
     <li class="nav-item">
       <a class="nav-link" href="#sectionAbout">About</a>
@@ -41,8 +42,8 @@
 </nav>
 
 <!-- ABOUT section -->
-  <div id="sectionAbout" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
-  <h1>About</h1>
+  <div id="sectionAbout" class="container-fluid bg-success mt-5" style="padding-top:70px;padding-bottom:70px">
+  <h1 class="display-4 pb-4 text-center">About</h1><hr>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
 </div>
@@ -50,8 +51,8 @@
 
 <!-- EDUCATION section -->
   <div id="sectionEducation" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
-  <h1>Education</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+<h1 class="display-4 pb-4 text-center">Education</h1><hr>
+
     <div class="card-columns">
       <div class="card">
         <img class="card-img-top" src="img/304.jpg" alt="Card image cap">
@@ -100,29 +101,37 @@
           <!-- Button trigger modal -->
           <div class="row">
             <div class="col-6 mx-auto">
-          <button type="button" class="btn btn-primary my-3" data-toggle="modal" data-target="#exampleModal">Launch demo modal</button>
-          </div>
+              <button type="button" class="btn btn-primary my-3" data-toggle="modal" data-target="#exampleModal">Launch demo modal</button>
+            </div>
           </div>
           <!-- Modal -->
           <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
-                  ...
-                  ...
+                  <div class="row">
+                    <div class="col">
+                    <div class="card">
+                      <img class="card-img-top" src="img/235.jpg" alt="Card image">
+                      <div class="card-body">
+                        <h4 class="card-title lead text-center">Photography</h4>
+                        <p class="card-text"></p>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>
-</div>      
+          </div>      
       </div>
       <div class="card p-3 text-right">
         <blockquote class="blockquote mb-0">
@@ -142,15 +151,13 @@
         </div>
       </div>
 </div>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
 </div>
   <!-- END EDUCATION section -->
 
 <!-- SKILLS section -->
   <div id="sectionSkills" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
-  <h1>Skills</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  
+ <h1 class="display-4 pb-4 text-center">Skills</h1><hr>
+
 <div class="row text-center py-3">
   <button class="btn btn-info ml-3" onclick="openCity('London')">London</button>
   <button class="btn btn-primary ml-3" onclick="openCity('Paris')">Paris</button>
@@ -183,7 +190,7 @@
 
 <!-- PORTFOLIO section -->
   <div id="sectionPortfolio" class="container-fluid bg-danger" style="padding-top:70px;padding-bottom:70px">
-  <h1>Portfolio</h1>
+    <h1 class="display-4 pb-4 text-center">Portfolio</h1><hr>
   <div class="row">
     <div class="col">
         <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
